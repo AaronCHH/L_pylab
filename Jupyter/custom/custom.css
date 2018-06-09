@@ -1,0 +1,32 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file in IPython
+*/
+
+
+div.container pre {font-family: Consolas;}
+/*div.text_cell_render pre {font-family: Consolas; font-size: 11pt;}*/
+/*div.text_cell_render, div.output_html {font-family: Consolas; font-size: 11pt;}*/
+
+.rendered_html code {font-family: Consolas;font-size: 11pt;}
+
+.CodeMirror pre {font-family: Consolas; font-size: 11pt;}
+.CodeMirror {font-family: Consolas; font-size: 11pt;}
+.CodeMirror-linenumber {font-family: Consolas;}
+
+div.output_area pre {font-family: Consolas; font-size: 11pt;}
+div.output_subarea {font-family: Consolas;font-size: 11pt;}
+
+div.input_prompt {font-family: Consolas;}
+div.output_prompt {font-family: Consolas;}
+
+div.tooltiptext pre {font-family: Consolas;}
+div.completions select{font-family: Consolas;}
+
+.output_scroll {
+    box-shadow:none !important;
+    webkit-box-shadow:none !important;
+}
