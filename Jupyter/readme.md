@@ -14,7 +14,7 @@ jupyter --path
 
 ## Customization path
 ```
-[Anaconda Install Path]\Lib\site-packages\notebook\static\custom
+[Anaconda Path]\Lib\site-packages\notebook\static\custom
 ```
 
 ## Check conda env
@@ -25,6 +25,14 @@ conda env list
 ## Check notebook kernel
 ```
 jupyter kernelspec list
+```
+* Path
+```
+C:\Users\[UserName]\AppData\Roaming\jupyter\kernels\
+```
+Or
+```
+C:\ProgramData\jupyter\kernels\
 ```
 
 ## nbetension
@@ -46,3 +54,13 @@ jupyter nbextension enable [codefolding]/main
 jupyter nbextension disable [codefolding]/main
 ```
 * https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+
+### snippet
+* Folder path
+```
+[Anaconda Path]\share\jupyter\nbextensions\snippets
+```
+OR
+```
+C:\ProgramData\jupyter\nbextensions\snippets
+```
